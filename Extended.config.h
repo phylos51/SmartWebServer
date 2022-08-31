@@ -16,7 +16,7 @@
                                           //              error and status messages, use PROFILER for VT100 task profiler,
                                           //              use REMOTE to forward verbose debug output to OnStep
 #define SERIAL_DEBUG               Serial //      Serial, Or use any h/w serial port. Serial1 or Serial2, etc. as supported.  Option
-#define SERIAL_DEBUG_BAUD            9600 //        9600, n. Where n=9600,19200,57600,115200 (common baud rates.)             Option
+#define SERIAL_DEBUG_BAUD           57600 //        9600, n. Where n=9600,19200,57600,115200 (common baud rates.)             Option
 
 // STATUS LED ----------------------------------------------------------------------------------------------------------------------
 #define LED_STATUS_ON_STATE           LOW //         LOW, Use HIGH so indicator stays on when connected if needed.            Option
